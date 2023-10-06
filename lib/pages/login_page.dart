@@ -10,6 +10,7 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true, // 키보드 생성 시 스크롤 O
       body: Padding(
         padding: const EdgeInsets.all(main_gap),
         child: ListView(

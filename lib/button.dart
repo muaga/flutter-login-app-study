@@ -4,6 +4,7 @@ ThemeData Button() {
   return ThemeData(
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
+        // ElevateButton - 디폴트 값 파란색
         backgroundColor: Colors.black,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(
