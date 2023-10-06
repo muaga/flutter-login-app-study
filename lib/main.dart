@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: Button(),
-      initialRoute: "/login", // 앱의 첫 페이지
+      initialRoute: "/home", // 앱의 첫 페이지
       routes: {
         // 페이지가 2개 이상일 때, ""이름을 지정해주고, 아래의 이름에 따라 이동한다.
         "/home": (context) => HomePage(),
