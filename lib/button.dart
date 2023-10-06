@@ -11,6 +11,8 @@ ThemeData Button() {
           borderRadius: BorderRadius.circular(30),
         ),
         minimumSize: Size(double.infinity, 60),
+        // Size의 width를 double.infinity로 지정하면,
+        // 앱의 가로모드 등 화면에 크기에 맞는 버튼이 자동 지정된다.
       ),
     ),
   );

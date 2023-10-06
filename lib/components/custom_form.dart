@@ -15,7 +15,11 @@ class CustomForm extends StatelessWidget {
         SizedBox(height: large_gap),
         CustomTextFormField(text: "Password", isPassword: true),
         SizedBox(height: large_gap),
-        ElevatedButton(onPressed: () {}, child: Text("Login")),
+        ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, "/home"); // "/home" 페이지로 이동
+            },
+            child: Text("Login")),
         // 버튼을 만드는 것만으로도 ButtonTheme의 Button이 생성된다.
 
         // 데이터가 들어오면, true가 된다.

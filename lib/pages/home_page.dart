@@ -15,7 +15,11 @@ class HomePage extends StatelessWidget {
             SizedBox(height: xlarge_gap),
             Logo("Care Soft"),
             SizedBox(height: large_gap),
-            ElevatedButton(onPressed: () {}, child: Text("Get Started")),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context); // 뒤로가기
+                },
+                child: Text("Get Started")),
           ],
         ),
       ),
