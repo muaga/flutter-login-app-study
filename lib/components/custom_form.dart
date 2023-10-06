@@ -14,6 +14,10 @@ class CustomForm extends StatelessWidget {
         CustomTextFormField(text: "Email"),
         SizedBox(height: large_gap),
         CustomTextFormField(text: "Password", isPassword: true),
+        SizedBox(height: large_gap),
+        ElevatedButton(onPressed: () {}, child: Text("Login")),
+        // 버튼을 만드는 것만으로도 ButtonTheme의 Button이 생성된다.
+
         // 데이터가 들어오면, true가 된다.
       ]),
     );
