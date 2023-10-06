@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: "/login", // 앱의 첫 페이지
       routes: {
         // 페이지가 2개 이상일 때, ""이름을 지정해주고, 아래의 이름에 따라 이동한다.
